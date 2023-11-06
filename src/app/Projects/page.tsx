@@ -10,10 +10,8 @@ import Image from 'next/image'
 // }
 
 export default function Projects({
-  children,
   params
 }: {
-  children: React.ReactNode,
   params: { Id: string }
 }) {
   const searchParams = useSearchParams();
