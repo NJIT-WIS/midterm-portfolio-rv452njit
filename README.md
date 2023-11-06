@@ -18,6 +18,11 @@ pnpm dev
 bun dev
 ```
 
+Profile Link [https://midterm-portfolio-rv452njit.vercel.app/]
+
+Figma Link [https://www.figma.com/file/83k3XDM0CyDHn5BPYiNltV/MidTerm-Figma-Design?type=design&node-id=0-1&mode=design&t=cxk72a8QVp3GDuFC-0]
+
+
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
