@@ -1,4 +1,6 @@
-{import('next').NextConfig}
+/**
+ * @type {import('next').NextConfig}
+ */
 const pathPrefix = process.env.NODE_ENV === 'production'
   ? 'https://njit-wis.github.io/midterm-portfolio-rv452njit/'
   : '';
