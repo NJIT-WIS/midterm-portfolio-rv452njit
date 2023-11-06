@@ -1,0 +1,339 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&family=Work+Sans:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"');
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+  font-family: 'Roboto';
+  font-family:'Outfit', Courier, monospace;  
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+.nav {
+  background-color: none !important;
+  color:#2DB0B0 !important;
+}
+
+section>main>ul>li.a{
+  font-size: larger !important;
+  font-family: 'Roboto' !important;  
+  list-style-type: circle !important;
+  margin-left: 2vh
+}
+
+.ul-setting{
+  font-size: larger;
+  font-family: 'Roboto' !important;  
+  list-style-type: circle !important;
+  margin-left: 2vh;
+
+}
+
+.list-setting {
+}
+
+ul>li>a{
+  list-style-type: circle !important;
+  margin-left: 2vh
+}
+
+.Summary-Header{
+  font-family: 'Roboto' !important;
+  font-weight: 900;
+  font-size: xx-large;
+  display: flex;
+  align-content: center;
+  align-items: center;
+}
+
+.disabled{
+  pointer-events: none;
+}
+
+.Feedback-modal{ 
+  width:70%;
+  height:70%;
+  margin:0 auto;
+}
+
+.min-h-screen {
+  min-height: 82vh;
+  max-height: 82vh;
+  height: 82vh;
+}
+
+.min-home-screen {
+  min-height: 70vh;
+  max-height: 70vh;
+  height: 70vh;
+}
+
+.min-contact-screen {
+  min-height: 82vh;
+  max-height: 82vh;
+  height: 82vh;
+}
+
+.nav-setting {
+  box-shadow: none;
+  display: flex;
+  align-content: flex-end;
+  background-color: transparent;
+  justify-content: flex-end;
+
+}
+
+.flexwidth {
+  min-width: 50%;
+  max-width: 50%;
+}
+
+.chatSection {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.homepage-setting {
+  min-height: 80vh;
+  max-height: 80vh;
+  height: 80vh;
+  margin-top: 3% !important;
+}
+
+.card {
+  margin: none !important;
+  box-shadow: none !important;
+  background-color: transparent !important;
+}
+
+.card-setting{
+  margin: 0px;
+  background-color: transparent;
+  box-shadow: none;
+}
+
+.body-setting {
+  background-color:#3939C3;
+}
+
+.contact-setting {
+  min-height: 82vh;
+  max-height: 82vh;
+  margin-top: 0px !important;
+}
+
+border-radius {
+  border-radius: 10px;
+}
+
+.control-setting > select {
+
+  margin-bottom: 1vw;
+  display: flex !important;
+  background-color: transparent;
+}
+
+.header-width {
+  max-height: 0vw;
+  min-width: 50%;
+}
+
+.link-setting {
+  color: #2DB0B0;
+  font-weight: 900;
+  font-size: large;
+}
+
+.semibold {
+  background-color: transparent;
+  color: #ffff;
+  height: 100%;
+  background: transparent;
+  color: #ffff;
+  font-size: x-large;
+  display: contents;
+} 
+
+.buttonbg20{
+  background-color: #947DD5;
+  width: 20vh;
+}
+
+.buttonbg{
+  background-color: #947DD5;
+  width: 15vh;
+}
+
+.header-setting {
+  background-color: #3F3C56;
+  height: 8vh;
+  border-radius: 10px;
+}
+
+.HeroSectionArchtype-sub {
+  font-family: roboto;
+  font-weight: 900;
+  color: #EA4242;
+  font-size: x-large;
+}
+
+.HeroSectionArchtype {
+  color: #B0A32D;
+  text-decoration-color: #B0A32D;
+  font-family: 'Roboto';
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.Section-Setting {
+  min-height: 80vh;
+}
+
+.footer-setting {
+  display: flex;
+  justify-content: space-between;
+  align-content: space-around;
+  background-color: #3F3C56;
+  height: 8vh;
+  border-radius: 10px;
+  width: 100%;
+  align-items: center;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  position: sticky;
+  bottom: 0%;
+}
+
+.footer-section{
+  position: sticky;
+  bottom: 0px;
+}
+
+/* Responsive layout - makes a one column layout instead of a two-column layout */
+@media (max-width: 800px) {
+  .flex-item-right, .flex-item-left {
+    flex: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .flex-item-right, .flex-item-left {
+    flex: 100%;
+  }
+}
+
+.name-setting {
+  text-align: center;
+  width: 40%;
+  margin-top: auto;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background-color: #3939C3;
+  font-family: Roboto !important;
+  /*background-image: url('/stars.jpg');
+   background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    ) 
+    rgb(var(--background-start-rgb));*/
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  gap:10px;
+}
+
+  .column {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.row {
+  /* display: flex;
+  flex-direction: row;
+  gap: 10px; */
+  margin-bottom: unset !important;
+}
+
+.skill-list {
+  display: grid;
+  /* Apply Grid layout */
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  /* Create as many columns as fit into the container */
+  gap: calc(.5 * var(--base-spacing));
+  /* Add space between grid items */
+  /* margin-bottom: 1rem; */
+  /* Add space below the list */
+}
+
+.marginbw {
+  margin-right: 1vw;
+  margin-top: 1vw;
+}
+
+.projectbg{
+  background-color: #947DD5;
+  color: #fff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  font-size: 30px;
+  text-align: center;
+  height: 5vw;
+  background-color: #3F3C56;
+  border-radius: 10px;
+  position: sticky;
+  top:0.0rem;
+}
+
+.flex-item-left {
+  background-color: transparent;
+  padding: 1px;
+  flex: 50%;
+}
+
+.flex-item-right {
+  background-color: transparent;
+  padding: 1px;
+  flex: 50%;
+}
+
+.header-width {
+  width: 100%;
+}
+
+/* Responsive layout - makes a one column-layout instead of two-column layout */
+@media (max-width: 800px) {
+  .flex-container {
+    flex-direction: column;
+  }
+}
