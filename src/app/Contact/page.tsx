@@ -5,11 +5,7 @@ import type { Metadata } from 'next'
 import { Inter, Roboto, Outfit } from 'next/font/google'
 
 import Head from 'next/head'
-export default function Contact({
-  children,
-}: {
-  children: React.ReactNode
-}) {
+export default function Contact() {
   return (
     <section className='contact-setting' id="ContactSection">
       <main className="">
