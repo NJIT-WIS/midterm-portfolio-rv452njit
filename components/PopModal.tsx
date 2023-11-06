@@ -35,7 +35,7 @@ export function PopModal() {
     <div style={{ width: "30vw", height: "30vw", maxHeight:"40vw", display: "flex", alignSelf: "center", margin: "10%" }}>
       <div className="">
         {/* (disableButton==true)? disabled : '' */}
-        <div className="fixed z-100 inset-0 overflow-y-auto"
+        <div className=" z-100 inset-0 overflow-y-auto"
           id="Feedback-modal"
           aria-labelledby="modal-title"
           role="dialog"
@@ -63,12 +63,12 @@ export function PopModal() {
             
             <span>*All Fields are Mandatory</span>
             <div className="flex flex-row items-center justify-start">
-              <div className="mt-5 sm:mt-4 sm:flex sm:flex-row-reverse">
+              {/* <div className="mt-5 sm:mt-4 sm:flex sm:flex-row-reverse"> */}
                 <Link
                 href="/"
                   type="button"
                   onClick={()=>HandleOnClick(event)}
-                  className="w-full inline-flex justify-center rounded-md border border-transparent shadow-sm px-4 py-2 bg-blue-600 text-base font-medium text-white hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500 sm:ml-3 sm:w-auto sm:text-sm"
+                  className="rounded-md border border-transparent shadow-sm px-4 py-2 bg-blue-600 text-base font-medium text-white hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500 sm:ml-3 sm:w-auto sm:text-sm"
                 >
                   SUBMIT
                 </Link>
@@ -77,11 +77,11 @@ export function PopModal() {
                  href={"/"}
                   type="button"
                   onClick={(event) => { HandleOnClick(event)}}
-                  className="w-full inline-flex justify-center rounded-md border border-transparent shadow-sm px-4 py-2 bg-secondary-600 text-base font-medium text-white hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500 sm:ml-3 sm:w-auto sm:text-sm"
+                  className="rounded-md border border-transparent shadow-sm px-4 py-2 bg-secondary-600 text-base font-medium text-white hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500 sm:ml-3 sm:w-auto sm:text-sm"
                 >
                   CANCEL
                 </Link>
-              </div>
+              {/* </div> */}
             </div>
 
           </form>
