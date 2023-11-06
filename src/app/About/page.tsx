@@ -4,11 +4,7 @@ import Image from 'next/image'
 import type { Metadata } from 'next'
 import { Inter, Roboto, Outfit } from 'next/font/google'
 
-export default function About({
-  children,
-}: {
-  children: React.ReactNode
-}) {
+export default function About() {
   return (
     <section className='Section-Setting' id='AboutSection'>
       <main className="">
