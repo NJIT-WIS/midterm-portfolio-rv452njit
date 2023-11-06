@@ -4,11 +4,7 @@ import Image from 'next/image'
 import type { Metadata } from 'next'
 import { Inter, Roboto, Outfit } from 'next/font/google'
 import Head from 'next/head'
-export default function Projects1({
-    children,
-  }: {
-    children: React.ReactNode
-  }) {
+export default function Projects1() {
   return (
     <section className='Section-Setting' id='Project1Section'>
         <main className="">
