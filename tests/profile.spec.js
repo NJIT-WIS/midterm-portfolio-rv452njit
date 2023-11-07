@@ -91,7 +91,7 @@ test.describe('RV452 Profile', () => {
 
     test("Challenge Section", async ({ page }) => {
         await page.goto("http://127.0.0.1:3000");
-        const heroSection = await expect(page.locator('#challengesection')).toBeVisible();
+        const heroSection = await expect(page.locator('#ctasection')).toBeVisible();
     });
 
     test("Footer Section", async ({ page }) => {

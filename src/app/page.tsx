@@ -19,7 +19,7 @@ export default function Home({ searchParams }: Props) {
 
   return (
     <section className='homepage-setting' id='HeroSection'>
-      <main className="flex min-home-screen">
+      <main className="flex align-items-baseline min-home-screen">
         <div className="flex flex-col justify-center lg:flex-row flexwidth flex-item-left">
           <div className="card-setting">
             <div className='semibold mb-32 grid lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-2 lg:text-left'>
