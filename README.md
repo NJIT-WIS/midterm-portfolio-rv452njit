@@ -1,48 +1,26 @@
 Welcome to Ravisankar Venkataraman Profile
 
+The Explorer - Archetype
+
+Those who like to experience the unknown, inquisitive, curious and do things different in a correct way.
+
+Personally am so attracted to the stars, sky, even while walking am always looking up the sky since from my childhood, there is always some activity that is happening in the sky shooting stars, comets and so forth, its the most unforgiving massive area that's impossible to explore in one's life time (even cats if they have 9 live if at all). after my few nights sky gazing in dark sites, my perspective of life has changed a lot. Showing what we know and understood is not even a grain of sannd when looking and the vastness at expanse. Being explorer may not just be in this world but in this galaxy perhaps the universe eventually.
+
 This is the website built on [Next.js](https://nextjs.org/), React, this site provides with the glimpse of details of the profile, background, experience and projects that Ravi worked on.
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
-## Getting Started
-
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+HomePage: 
+1. Logo
+2. Navigation Links (Background, Blogs, Contacts)
+3. Role and Responsibility snip
+4. Archtype (Statement, Image of Milkyway with spaceship in the unknown, designed by self with no photoshop, picture is also taken by us from bortle site in some remote park in Texas)
+5. Last 4 Project card with Title and technology (Redirects to respective projects folder with details)
+6. CTA (Challenge Icon)
+7. Chat Button (Soon to be implemented)
+8. Footer with Social Icons and Download button for resume (One click download of resume) 
 
 Profile Link [https://midterm-portfolio-rv452njit.vercel.app/]
 
-Figma Link [https://www.figma.com/file/83k3XDM0CyDHn5BPYiNltV/MidTerm-Figma-Design?type=design&node-id=0-1&mode=design&t=cxk72a8QVp3GDuFC-0]
+Figma Link [https://www.figma.com/file/83k3XDM0CyDHn5BPYiNltV/MidTerm-Figma-Design?type=design&node-id=0-1&mode=design&t=cxk72a8QVp3GDuFC-0], Showing landing page, Background(About), Blogs, Contact, and Each Project card will direct to different projects details card.
 
-![Alt text](TestResult) (./public/TestScreenshot.png?raw=true, "Test Result")
-![Alt text](TestResult1) (./public/TestScreenshot1.png?raw=true, "Test Result 1")
-
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Credits:
+Some of the icons are taken from online site with due credit and thanks.

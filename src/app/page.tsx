@@ -105,7 +105,7 @@ export default function Home({ searchParams }: Props) {
       </main>
       <div className='chatSection' id="chatSection">
         <div>
-          <Link rel="icon" type="image/png" href={"/?modal=true"} className="" id='challengesection'>
+          <Link rel="icon" type="image/png" href={"/?modal=true"} className="" id='ctasection'>
             <Image className='' src='/Challenge.png' title='Leave your Footprint' alt='Leave your footprint' width={60} height={60} priority />
           </Link>
           {showModal && <PopModal />}
